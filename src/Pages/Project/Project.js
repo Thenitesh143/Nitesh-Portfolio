@@ -3,7 +3,7 @@ import React from 'react'
 import './Project.css'
 
 import projectimg from '../../Assets/project.jpg'
-import hotstar from '../../Assets/projectimg/hotstar.png'
+import niteshportfolio from '../../Assets/projectimg/niteshportfolioimg.png'
 import beats from '../../Assets/projectimg/beats.png'
 import hackerbook from '../../Assets/projectimg/hackerbook.png'
 
@@ -21,10 +21,10 @@ const Project = () => {
             </div>
             <div className="display-project second-pro">
                 <div className='project-content'>
-                    <h3>Hotstar Clone</h3>
-                    <p>Disney+ Hotstar is an online video streaming platform owned by Novi Digital Entertainment Private Limited, a wholly owned subsidiary of Star India Private Limited.  </p>
+                    <h3>Nitesh Portfolio</h3>
+                    <p>This is my portfolio website build on react </p>
                 </div>
-                <div><a href="https://steady-gingersnap-64e01e.netlify.app/"><img src={hotstar} alt="" /></a>
+                <div><a href="https://steady-gingersnap-64e01e.netlify.app/"><img src={niteshportfolio} alt="" /></a>
                 </div>
             </div>
             <div className="display-project">
