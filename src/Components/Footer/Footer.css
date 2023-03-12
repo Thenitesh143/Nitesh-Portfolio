@@ -1,0 +1,19 @@
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer > div > ul {
+  display: flex;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
+}

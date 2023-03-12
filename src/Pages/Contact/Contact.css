@@ -1,0 +1,129 @@
+.contact {
+  background-color: var(--grey);
+  color: var(--text-light-grey);
+  margin-top: 0;
+}
+
+.contact > div {
+  padding: 0 30px;
+  margin-top: 0;
+}
+
+h1 {
+  padding-top: 20px;
+  margin-top: 0;
+}
+
+.contact > h1 {
+  display: inline-block;
+  background-color: var(--grey);
+  text-decoration: underline;
+  width: 40vw;
+  margin-top: 0;
+}
+
+.contact-container {
+  padding-top: 50px;
+  margin-top: 0;
+  display: flex;
+  background-color: var(--grey);
+  justify-content: space-around;
+  /* width: 40vw; */
+}
+
+.contact-container > div > p {
+  text-align: center;
+  margin: 0px 0px 30px;
+  color: rgba(250, 250, 250, 0.9);
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 50%;
+  /* padding-bottom: 10px; */
+}
+
+.contact-container > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container > div > div > a {
+  margin: 20px;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+}
+
+.contact-container > div > div > a > img {
+  padding: 10px;
+}
+
+.contact-container img {
+  width: 50px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-container input,
+textarea,
+button {
+  margin: 10px;
+  width: 40vw;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+input {
+  height: 40px;
+}
+
+button {
+  background-color: #090a0b;
+  border: 2px solid #090a0b;
+  color: white;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: white;
+  border: 2px solid #090a0b;
+  color: #090a0b;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    /* padding: 0 10vw 10vw 10vh; */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .contact-container > div > p {
+    font-size: 1.4rem;
+    height: unset;
+    /* padding: 50px 0px 0px; */
+    width: 100%;
+  }
+  .input-container input,
+  textarea,
+  button {
+    margin: 10px;
+    width: auto;
+  }
+}
