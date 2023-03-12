@@ -9,7 +9,7 @@ import bootstrap from '../../Assets/skillslogo/bootstrap.png'
 import tailwind from '../../Assets/skillslogo/tailwindcss.png'
 import materialui from '../../Assets/skillslogo/materialui.png'
 import react from '../../Assets/skillslogo/react.png'
-import redux from '../../Assets/skillslogo/redux.png'
+import java from '../../Assets/skillslogo/java.png'
 
 
 
@@ -49,8 +49,8 @@ const Skills = () => {
                     <img src={react} alt="" />
                 </div>
                 <div className="skills-name">
-                    <h3>Redux</h3>
-                    <img src={redux} alt="" />
+                    <h3>Java</h3>
+                    <img src={java} alt="" />
                 </div>
                 <div className="skills-name">
                     <h3>Git</h3>
