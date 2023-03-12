@@ -1,12 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar/Navbar';
 
+import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Skills from './Pages/Skills/Skills';
 import Contact from './Pages/Contact/Contact';
 
-import './App.css';
 import Project from './Pages/Project/Project';
 import Footer from './Components/Footer/Footer';
 

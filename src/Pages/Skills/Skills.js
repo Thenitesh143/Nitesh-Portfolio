@@ -10,7 +10,6 @@ import tailwind from '../../Assets/skillslogo/tailwindcss.png'
 import materialui from '../../Assets/skillslogo/materialui.png'
 import react from '../../Assets/skillslogo/react.png'
 import redux from '../../Assets/skillslogo/redux.png'
-import java from '../../Assets/skillslogo/java.png'
 
 
 

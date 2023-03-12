@@ -3,7 +3,6 @@ import './Navbar.css'
 
 import home from '../../Assets/home.png'
 
-
 const Navbar = () => {
     return (
         <nav className='navbar'>

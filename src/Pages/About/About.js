@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 
-
 // images 
 import aboutImage from '../../Assets/about-img.jpg'
 
