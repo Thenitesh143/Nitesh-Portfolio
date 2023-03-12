@@ -23,7 +23,7 @@ const Project = () => {
                     <h3>Hotstar Clone</h3>
                     <p>Disney+ Hotstar is an online video streaming platform owned by Novi Digital Entertainment Private Limited, a wholly owned subsidiary of Star India Private Limited.  </p>
                 </div>
-                <div><a href="https://steady-gingersnap-64e01e.netlify.app/"><img src={hotstar} alt="" /></a>
+                <div><a href="#"><img src={hotstar} alt="" /></a>
                 </div>
             </div>
         </div>
