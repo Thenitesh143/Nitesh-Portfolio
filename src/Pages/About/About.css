@@ -2,6 +2,7 @@ section {
   background-color: var(--grey);
   color: #e8e8e9;
   font-family: Montserrat;
+  /* font-family: Georgia,serif; */
   padding-bottom: 30px;
 }
 
@@ -28,7 +29,7 @@ section {
   font-size: 24px;
   margin: 0 0 1.5em;
   min-width: 100%;
-  color: rgba(255, 255, 255, 0.75);
+  color: #77cda1;
 }
 
 @media only screen and (max-width: 600px) {

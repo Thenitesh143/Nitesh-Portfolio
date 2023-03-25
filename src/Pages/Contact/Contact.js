@@ -18,7 +18,7 @@ const Contact = () => {
                         <p>Want to know my journey or would like to chat with me, feel free to contacts</p>
                         <div>
                             <a href="https://www.linkedin.com/in/nitesh-chowdhary-004327249/"><img src={linkedin} alt="" /></a>
-                            <a href="https://github.com/Thenitesh143"><img src={github} alt="" /></a>
+                            <a href="https://github.com/nitesh-github143"><img src={github} alt="" /></a>
                             <a href="https://twitter.com/Niteshtwt143"><img src={twitter} alt="" /></a>
                         </div>
                     </div>
